@@ -1,0 +1,17 @@
+.color-wheel {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid gray;
+
+
+  .segment {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    transform-origin: 100% 50%;
+    padding-left: 2px 2px;
+  }
+}
